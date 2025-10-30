@@ -18,7 +18,6 @@ public final class Constants {
   }
 
   public static class CoralArmHardware {
-    public static final int ARM_MOTOR_ID = 52;
     public static final int EFFECTOR_MOTOR_ID = 51;
     public static final double ALLOWED_CLOSED_LOOP_ERROR = 0.05;
     public static final Current ARM_MOTOR_CURRENT_LIMIT = Units.Amps.of(40);

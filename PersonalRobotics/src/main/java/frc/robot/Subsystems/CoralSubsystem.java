@@ -75,7 +75,7 @@ public class CoralSubsystem extends StateMachine implements AutoCloseable {
             public SystemState nextState() {
                 if (getInstance().m_intakeCoralButton.getAsBoolean()) return INTAKE;
 
-                return this;
+                return REST;
             }
         
     }
