@@ -132,6 +132,7 @@ public class CoralSubsystem extends StateMachine implements AutoCloseable {
     public void periodic() {
         Logger.recordOutput(getName() + "/state", getState().toString());
         Logger.recordOutput(getName() + "/inputs/rollerCurrent", m_coralMotor.getAppliedOutput());
+        Logger.recordOutput("IsXPressed",m_intakeCoralButton.getAsBoolean());
 
     }
     public static Hardware initializeHardware() {
